@@ -8,6 +8,7 @@ body {
   background-color: #d9dcd6;
 }
 
+/*  Changed div to header  */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -22,6 +23,7 @@ header {
   display: inline-block;
 }
 
+/*  Changed div to nav  */
 nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -67,6 +69,7 @@ p {
   margin-left: 25px;
 }
 
+/*  Updated div to main  */
 main {
   width: 75%;
   display: inline-block;
@@ -84,6 +87,7 @@ main {
   background-color: #2589bd;
 }
 
+/*  Consolidated the section ids in the aside  */
 #lead-generation,
 #brand-awareness,
 #cost-management {
@@ -91,6 +95,7 @@ main {
   color: #ffffff;
 }
 
+/*  Consolidated the h3 elements in the sections  */
 #lead-generation h3,
 #brand-awareness h3,
 #cost-management h3 {
@@ -98,6 +103,7 @@ main {
   text-align: center;
 }
 
+/*  Consolidated the img elements in the sections  */
 #lead-generation img,
 #brand-awareness img,
 #cost-management img {
@@ -106,6 +112,7 @@ main {
   max-width: 150px;
 }
 
+/*  Consolidated the classes in the main content  */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -117,12 +124,14 @@ main {
   color: #ffffff;
 }
 
+/*  Consolidated the images in the main content  */
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
   max-height: 200px;
 }
 
+/*  Consolidated the h2 in the main content  */
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
@@ -130,6 +139,7 @@ main {
   font-size: 36px;
 }
 
+/*  Updated the footer css to replace the div  */
 footer {
   padding: 30px;
   clear: both;
